@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Hand Cricket</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container-1">
+        <h1>Hand Cricket</h1>
+        <h2><span id="winning-message">Your Target: 25</span></h2>
+        <h3>Your Score: <span id="handcricket-score">0</span></h3>
+
+        <div class="flex-box-hand-1" id="flex-box-hand-div">
+
+            <img id="1finger" src="IMG/1finger.JPG" height="150px" width="150px" alt="" onclick="handgame(this)">
+            <img id="2finger" src="IMG/2finger.JPG" height="150px" width="150px" alt="" onclick="handgame(this)">
+            <img id="3finger" src="IMG/3fingers.JPG" height="150px" width="150px" alt="" onclick="handgame(this)">
+            <img id="4finger" src="IMG/4finger.JPG" height="150px" width="150px" alt="" onclick="handgame(this)">
+            <img id="5finger" src="IMG/5finger.JPG" height="150px" width="150px" alt="" onclick="handgame(this)">
+            <img id="6finger" src="IMG/6finger.JPG" height="150px" width="150px" alt="" onclick="handgame(this)">
+
+        </div>
+        <div>
+            <button class="btn-lg btn-danger mr-2" id="button-play">RESET</button>
+        </div>
+        <div class="flex-box-hand-2">
+            <div id="your-box">
+                <h2>Batsman: <span id="bat-hand-result">0</span></h2>
+            </div>
+            <div id="dealer-box">
+                <h2>Bowler: <span id="bowl-hand-result">0</span></h2>
+            </div>
+        </div>
+        <div class="flex-box-hand-3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>

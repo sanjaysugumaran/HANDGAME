@@ -1,0 +1,45 @@
+.container-1{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.flex-box-hand-1,.flex-box-hand-2,.flex-box-hand-3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-hand-2{
+    background: url('https://wallpapercave.com/wp/wp4477742.jpg')center;
+    color: white;
+}
+
+.flex-box-hand-2 div{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    height: 250px;
+}
+
+table,th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.container-1 button{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+img{
+    transition: 0.5s;
+}
+img:hover{
+    transform:scale(1.1);
+    box-shadow: 0px 10px 50px rgba(250,240,85);
+}
