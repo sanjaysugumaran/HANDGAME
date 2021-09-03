@@ -14,9 +14,10 @@
     justify-content: space-around;
 }
 .flex-box-hand-2{
-    background: url('https://wallpapercave.com/wp/wp4477742.jpg')center;
+    background: url('https://wallpaperaccess.com/full/1429807.jpg')center;
     color: white;
 }
+
 
 .flex-box-hand-2 div{
     border: 1px solid black;
@@ -41,5 +42,5 @@ img{
 }
 img:hover{
     transform:scale(1.1);
-    box-shadow: 0px 10px 50px rgba(250,240,85);
+    box-shadow: 0px 5px 25px rgba(245, 78, 217);
 }
